@@ -20,11 +20,10 @@ export class SearchComponent implements OnInit {
 
   buscarArtista( termino:string ){
     this.loading = true;
-    this.spotify.getArtista(termino)
+    this.spotify.getArtistas(termino)
         .subscribe( (data:any)=> {
           this.buscar = data;
           this.loading = false;
-          console.log(this.buscar);
           
         })
    

@@ -15,7 +15,7 @@ export class ArtistaTarjetaComponent implements OnInit {
 
     let artistaId;
 
-    if ( item.type == 'artist' ) {
+    if ( item.type === 'artist' ) {
       artistaId = item.id;
     } else {
       artistaId = item.artists[0].id;

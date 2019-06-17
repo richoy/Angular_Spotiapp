@@ -9,6 +9,10 @@ hr {
     border-color: white;
 }
 
+.letras{
+    color: white !important;
+}
+
 .puntero {
     cursor: pointer;
 }
