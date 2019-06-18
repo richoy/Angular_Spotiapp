@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   nuevasCanciones: any[] = [];
   loading: boolean;
 
+
   constructor( private spotify:SpotifyService) {
     
     this.loading = true;
@@ -29,3 +30,4 @@ export class HomeComponent implements OnInit {
   }
 
 }
+
